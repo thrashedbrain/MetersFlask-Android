@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <!-- removes additional spacing between navigation icon and expanded action view -->
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="titleTextColor">?attr/colorCardText</item>
+        <item name="android:elevation">0dp</item>
+        <item name="backgroundColor">?attr/colorBg</item>
+    </style>
+
+    <style name="AcceptButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="backgroundTint">@color/colorGreenButton</item>
+    </style>
+    
+    <style name="ButtonTextAppearance" parent="TextAppearance.AppCompat.Body2">
+    </style>
+    
+    <style name="Progress" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/colorGreenSuccess</item>
+    </style>
+</resources>
